@@ -25,3 +25,7 @@ body {
     text-wrap: balance;
   }
 }
+.pokemon-search .pokemon-card {
+  max-width: 400px;
+  margin: auto;
+}

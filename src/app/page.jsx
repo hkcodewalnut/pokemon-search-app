@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,7 +15,9 @@ export default function Home() {
         />
 
         <h1 className="text-4xl font-bold mt-6">Tech Test</h1>
-        <h2 className="text-lg">Good luck!</h2>
+        <Link className="font-medium text-blue-600 hover:underline" href="/junior-level">
+          Junior Level Task
+        </Link>
       </main>
     </div>
   );
